@@ -42,4 +42,11 @@ barchartGC(~race + eatout,data=mydata, type="percent")
 
 In both the frequency and percent charts, we can see   multiple differences when it come to races that eat out.   Note that white tend to overrule all other races when it   comes to frequency.  
 
+```{r}
+table1 <- xtabs(~race + eatout, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The numerical proof also shows that shown it comes down to   actual numbers and not a picture, the white race do then   to eat out more then the black race. Then the black race   tends to eat out more then the other race.  
 
