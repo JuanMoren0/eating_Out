@@ -63,3 +63,7 @@ fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
 ```
 
 The p-value according to Fisher's Exact test, white and   black differ, and the same goes for black and other they   also differ, and so on and so forth, showing the   difference between the frequency and percent of each race.  
+
+
+
+In conclusion, after seeing all the data graphs and data   sheets with the fisher's exact test,i can disagree with   the hypothesis that states there is no diffrence between   the races with eating out.  
