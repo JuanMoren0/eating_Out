@@ -1,6 +1,6 @@
 ---
 title: "Eating Out"
-author: "your name here"
+author: "Juan Moreno"
 output: 
   html_document:
     number_sections: true
@@ -34,8 +34,12 @@ mydata <- na.omit(mydata)
 
 
 
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
 
+```
 
-
+In both the frequency and percent charts, we can see   multiple differences when it come to races that eat out.   Note that white tend to overrule all other races when it   comes to frequency.  
 
 
