@@ -66,5 +66,5 @@ The p-value according to Fisher's Exact test, white and   black differ, and the 
 
 
 
-## Conclusion
-In conclusion, after seeing all the data graphs and data   sheets with the fisher's exact test,i can disagree with   the hypothesis that states there is no diffrence between   the races with eating out.  
+## Disscusion And Conclusion
+In conclusion, after seeing all the data graphs and data   sheets, the fisher's exact test, paired with fishers xy test,i can disagree with   the hypothesis that states there is no difference between   the races with eating out. The percents adds up, the frequency adds up.
