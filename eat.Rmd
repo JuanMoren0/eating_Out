@@ -50,3 +50,16 @@ colPerc(table1)
 
 The numerical proof also shows that shown it comes down to   actual numbers and not a picture, the white race do then   to eat out more then the black race. Then the black race   tends to eat out more then the other race.  
 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+```
+
+The p value shows that there is something different,of   course one look and the numbers might be similar but the   outcome and difference between the numbers are something   that shouldn't be overlooked and are not the same,   further test will be required to show what groups are   different and how.  
+
+```{r}
+fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
+```
+
+The p-value according to Fisher's Exact test, white and   black differ, and the same goes for black and other they   also differ, and so on and so forth, showing the   difference between the frequency and percent of each race.  
